@@ -22,10 +22,13 @@ HELP(){
     echo """
 ____________________ ______________________________________________________
 
-CREATE_NEW_DB       :   create db 
-SHOW_DB             :   show db
+CREATE NEW DB       :   create db
+SHOW DB             :   show db
 CREATE TABLE        :   create table
-MAKE BACKUP         :   
+SHOW TABLE          :   show table
+LOAD CSV FILE IN DB :   load csv
+MAKE BACKUP         :
+
 
 CONVERT OUTPUT
 ___________________ _______________________________________________________
