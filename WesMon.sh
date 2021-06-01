@@ -73,6 +73,9 @@ CONVERT_FILE_CSV(){
     # CONVERT FILE TXT IN CSV
     awk 'BEGIN {i=1} NF { if (i<=7) { printf("%s,", $0); i++ } else { print; i = 1} }' Output02.tmp >> Output$DATA.csv
     echo "File convertito"
+    rm -f *.tmp*
+    main
+
 }
 
 CREATE_CSV_TABLE(){
